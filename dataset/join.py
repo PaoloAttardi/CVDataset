@@ -111,7 +111,7 @@ for file2 in files2:
         dst_path = os.path.join(cartella_destinazione, file2)
         shutil.move(src_path, dst_path)
     elif scelta == 1:
-        # Sposta il file non scelto nella cartella bin
+        # Sposta il file nella cartella bin
         src_path = os.path.join(cartella2, file2)
         dst_path = os.path.join(cartella_bin, file2)
         shutil.move(src_path, dst_path)

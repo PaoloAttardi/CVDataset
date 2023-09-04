@@ -1,11 +1,10 @@
 import os
-import shutil
 
 # Definisci la cartella in cui si trovano i file TXT
-cartella_input = 'C:/Users/sghe9/Desktop/train/labels'
+cartella_input = 'C:/Users/sghe9/Desktop/dataset/train/labels_mod'
 
 # Definisci la cartella di destinazione dei file modificati
-cartella_output = 'C:/Users/sghe9/Desktop/train/labels_mod'
+cartella_output = 'C:/Users/sghe9/Desktop/dataset/train/labels_mod2'
 
 # Crea la cartella di destinazione se non esiste già
 if not os.path.exists(cartella_output):

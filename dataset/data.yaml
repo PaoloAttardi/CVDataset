@@ -1,15 +1,13 @@
-path: ../
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
-train: dataset/train/images
-val: dataset/valid/images
-test: dataset/test/images
-
-nc: 4
-names: ['0', 'basketball', 'people', 'rim']
+nc: 3
+names: ['basketball', 'people', 'rim']
 
 roboflow:
-  workspace: mytem
-  project: people_basketball_hoops
-  version: 6
+  workspace: cv-8scak
+  project: cv-cnfd4
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/mytem/people_basketball_hoops/dataset/6
+  url: https://universe.roboflow.com/cv-8scak/cv-cnfd4/dataset/1

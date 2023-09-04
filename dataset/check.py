@@ -1,8 +1,8 @@
 import os
 # assign directory
-directory = 'dataset/train/images'
-sourcedir = 'dataset/train/labels'
-destdir = 'dataset/train/checked'
+directory = 'old_images'
+sourcedir = 'old_labels'
+destdir =   'old_checked'
 
 # Crea la cartella di destinazione se non esiste già
 if not os.path.exists(destdir):
