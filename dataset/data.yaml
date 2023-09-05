@@ -2,8 +2,8 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 3
-names: ['basketball', 'people', 'rim']
+nc: 4
+names: ['0','basketball', 'people', 'rim']
 
 roboflow:
   workspace: cv-8scak
