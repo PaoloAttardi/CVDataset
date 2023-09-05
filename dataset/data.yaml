@@ -3,7 +3,7 @@ val: ../valid/images
 test: ../test/images
 
 nc: 4
-names: ['0','basketball', 'people', 'rim']
+names: ['basketball', 'people', 'rim', '0']
 
 roboflow:
   workspace: cv-8scak
